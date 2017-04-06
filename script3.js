@@ -43,7 +43,10 @@ rezult[element]=Counting(element);
 
 //Фукнція виводить обєкт
 
+var rezultat = JSON.stringify(rezult);
 
+console.log(rezultat);
+/*
 function alertObj(rezult) { 
     var str = ""; 
     for(k in rezult) { 
@@ -53,6 +56,8 @@ function alertObj(rezult) {
 } ;
 
 console.log(rezult);
+*/
+
 
 //document.getElementById("rezult").innerHTML=alertObj(rezult);
 /*
